@@ -1,0 +1,34 @@
+#donation-form {
+  /* Style the form container here */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#donation-form input[type="text"],
+#donation-form input[type="tel"],
+#donation-form input[type="email"],
+#donation-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#donation-form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#donation-form button {
+  /* Style the submit button here */
+}
