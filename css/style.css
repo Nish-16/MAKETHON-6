@@ -155,9 +155,9 @@ footer ul.social a {
     width: 10rem;
 }
 .image2{
-    height: 80%;
-    width: 80%;
-    margin: 50px;
+    height: 100%;
+    width: 100%;
+    /* margin: 50px; */
 }
 
 .i{
