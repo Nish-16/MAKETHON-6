@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/donate.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="donation-form">
+        <h2>Donate Food</h2>
+        <div class="form-group">
+          <label for="organizer-name">Organizer Name:</label>
+          <input type="text" id="organizer-name" name="organizer_name" style="width: 150px" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-number">Contact Number:</label>
+          <input type="tel" id="contact-number" name="contact_number" style="width: 150px" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-email">Contact Email:</label>
+          <input type="email" id="contact-email" name="contact_email" style="width: 150px" required>
+        </div>
+        <div class="form-group">
+          <label for="food-amount">Approximate amount of food (in servings):</label>
+          <input type="number" id="food-amount" name="food_amount" min="1" style="width: 150px" required>
+        </div>
+        <div class="form-group">
+          <label for="food-type">Food Type:</label>
+          <br>
+          <input type="radio" id="food-type-veg" name="food_type" value="veg" required>
+          <label for="food-type-veg">Vegetarian</label>
+          <br>
+          <input type="radio" id="food-type-nonveg" name="food_type" value="nonveg" required>
+          <label for="food-type-nonveg">Non-Vegetarian</label>
+        </div>
+        <div class="form-group">
+          <label for="remarks">Remarks (optional):</label>
+          <textarea id="remarks" name="remarks" style="width: 500px"></textarea>
+        </div>
+        <button type="submit">Submit Donation</button>
+      </form>
+      
+</body>
+</html>
