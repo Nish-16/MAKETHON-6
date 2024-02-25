@@ -36,8 +36,8 @@ body {
   
   .faq-question {
     font-weight: bold;
-    margin-bottom: 5px;
-    background-color: aqua;
+    margin-bottom: 10px;
+    background-color: rgb(243, 201, 124);
   }
   
   .faq-answer {
@@ -76,6 +76,9 @@ body {
   
   ul {
     margin-top: 20px;
+  }
+  .page_headings{
+    text-align: center;
   }
   
   /* You can further customize these styles to match your website's design and branding. */
